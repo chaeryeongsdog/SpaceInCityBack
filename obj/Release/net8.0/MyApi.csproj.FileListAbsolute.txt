@@ -168,3 +168,9 @@ C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Release\net8.0\refint\MyA
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Release\net8.0\MyApi.pdb
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Release\net8.0\MyApi.genruntimeconfig.cache
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Release\net8.0\ref\MyApi.dll
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\out\web.config
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\global.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\out\appsettings.Development.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\out\appsettings.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\out\MyApi.deps.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Release\net8.0\out\MyApi.runtimeconfig.json

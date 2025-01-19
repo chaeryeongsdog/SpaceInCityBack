@@ -1,6 +1,12 @@
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\MyApi.exe
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\out\web.config
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\appsettings.Development.json
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\appsettings.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\global.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\out\appsettings.Development.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\out\appsettings.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\out\MyApi.deps.json
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\out\MyApi.runtimeconfig.json
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\MyApi.dll
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\MyApi.runtimeconfig.json
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\out\MyApi.pdb
