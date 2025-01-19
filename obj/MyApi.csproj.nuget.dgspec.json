@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xian9\\Desktop\\backendTest\\MyApi\\MyApi.csproj": {}
+    "C:\\Users\\xian9\\Desktop\\backendTest\\SpaceInCityBack\\MyApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xian9\\Desktop\\backendTest\\MyApi\\MyApi.csproj": {
+    "C:\\Users\\xian9\\Desktop\\backendTest\\SpaceInCityBack\\MyApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xian9\\Desktop\\backendTest\\MyApi\\MyApi.csproj",
+        "projectUniqueName": "C:\\Users\\xian9\\Desktop\\backendTest\\SpaceInCityBack\\MyApi.csproj",
         "projectName": "MyApi",
-        "projectPath": "C:\\Users\\xian9\\Desktop\\backendTest\\MyApi\\MyApi.csproj",
+        "projectPath": "C:\\Users\\xian9\\Desktop\\backendTest\\SpaceInCityBack\\MyApi.csproj",
         "packagesPath": "C:\\Users\\xian9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xian9\\Desktop\\backendTest\\MyApi\\obj\\",
+        "outputPath": "C:\\Users\\xian9\\Desktop\\backendTest\\SpaceInCityBack\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
