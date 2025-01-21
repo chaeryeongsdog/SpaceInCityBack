@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", builder =>
-        builder.WithOrigins("http://127.0.0.1:5501")  // 允許你的前端來源
+        builder.WithOrigins("https://spaceincityfront.onrender.com")  // 允許你的前端來源
                .AllowAnyHeader()
                .AllowAnyMethod());
 });
