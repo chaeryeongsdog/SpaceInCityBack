@@ -11,15 +11,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", builder =>
-        builder.WithOrigins("https://spaceincityfront.onrender.com")  // 允許你的前端來源
+        builder.WithOrigins("http://127.0.0.1:5501")  // 允許你的前端來源
                .AllowAnyHeader()
                .AllowAnyMethod());
 });
 
 // 設置資料庫連接
-var connectionString = Environment.GetEnvironmentVariable("SpaceInCityDatabase"); // 從環境變數讀取資料庫連接字串
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connectionString)); // 使用環境變數中讀取的連接字串
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
 
 builder.Services.AddControllers();
 
