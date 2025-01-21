@@ -17,8 +17,9 @@ builder.Services.AddCors(options =>
 });
 
 // 設置資料庫連接
+var connectionString = Environment.GetEnvironmentVariable("SpaceInCityDatabase"); // 從環境變數讀取資料庫連接字串
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
+    options.UseSqlServer(connectionString)); // 使用環境變數中讀取的連接字串
 
 builder.Services.AddControllers();
 
