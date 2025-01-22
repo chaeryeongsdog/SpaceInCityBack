@@ -16,9 +16,9 @@ builder.Services.AddCors(options =>
                .AllowAnyMethod());
 });
 
-// 設置資料庫連接
+// 設置資料庫連接（改為 PostgreSQL）
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DB")));  // 使用 Npgsql 提供者
 
 builder.Services.AddControllers();
 

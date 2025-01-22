@@ -109,3 +109,5 @@ C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Debug\net7.0\refint\MyApi
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Debug\net7.0\MyApi.pdb
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Debug\net7.0\MyApi.genruntimeconfig.cache
 C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\obj\Debug\net7.0\ref\MyApi.dll
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Debug\net7.0\Npgsql.dll
+C:\Users\xian9\Desktop\backendTest\SpaceInCityBack\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
