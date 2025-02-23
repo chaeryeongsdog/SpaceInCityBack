@@ -10,14 +10,13 @@ builder.Services.AddSwaggerGen();
 // 啟用 CORS（跨來源資源共享）
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend", builder =>
-        builder.WithOrigins(
-            "https://spaceincityfront.onrender.com",  // 允許的網站 URL
-            "http://127.0.0.1:5501"                 // 本地開發 URL
-        )
-               .AllowAnyHeader()
-               .AllowAnyMethod());
+    options.AddPolicy("AllowFrontend", policy =>
+        policy.SetIsOriginAllowed(origin => new Uri(origin).Host == "spaceincityfront.onrender.com" ||
+                                             origin == "http://127.0.0.1:5501")
+              .AllowAnyHeader()
+              .AllowAnyMethod());
 });
+
 
 // 設置資料庫連接（改為 PostgreSQL）
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
